@@ -194,7 +194,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton("MORE BOTS", url="https://t.me/pixelDeep"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AnastasiaV11/radioPlayerV3"),
             ],
             [
                 InlineKeyboardButton("CLOSE MENU", callback_data="close"),
@@ -229,7 +228,6 @@ async def start(client, message):
             ],
             [
                 InlineKeyboardButton("MORE BOTS", url="https://t.me/pixelDeep"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AnastasiaV11/radioPlayerV3"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
@@ -254,7 +252,6 @@ async def help(client, message):
             ],
             [
                 InlineKeyboardButton("MORE BOTS", url="https://t.me/pixelDeep"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AnastasiaV11/radioPlayerV3"),
             ],
             [
                 InlineKeyboardButton("CLOSE MENU", callback_data="close"),
